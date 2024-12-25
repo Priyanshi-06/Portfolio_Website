@@ -1,0 +1,380 @@
+.Topcontainer, .MainSection {
+    width: 100%;
+}
+
+.MainSection {
+    display: flex;
+    height: 100vh;
+}
+
+.leftpart, .rightpart {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftpart {
+    background-color: #B3C8CF;
+}
+
+.rightpart {
+    background-color: white;
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    padding: 20px;
+    text-align: center;
+}
+
+.index-text{
+    align-self: flex-start; /* Ensure text stays on the left */
+    margin-top: 20px; /* Space from the top */
+    margin-left: 20px; /* Add some space from the left edge */
+}
+
+.main-text{
+    font-family: 'Playpen Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.leftimage {
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.circlecontainer {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: flex-end;
+    margin-bottom: 30px;;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: #B3C8CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Projects Section */
+.container{
+    background-color: #B3C8CF;
+    max-width: 1200px; /* Limit the width of the content */
+    width: 100%; /* Ensure it scales on smaller screens */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for aesthetics */
+}
+
+.skill-container{
+    background-color: #B3C8CF;
+    max-width: 1200px; /* Limit the width of the content */
+    width: 100%; /* Ensure it scales on smaller screens */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for aesthetics */
+}
+.contact-container{
+    background-color: #B3C8CF;
+}
+
+.Tech ul,
+.Soft ul,
+.Creative ul {
+    font-family: 'Playpen Sans', sans-serif;
+    text-align: left;
+    padding-left: 250px;
+}
+
+.Proj1, .Proj2, .Proj3 {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.Techincal-skill,.Soft-skill,.Creative-skill{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+}
+
+.TV_Channel_About, .WWEK, .TinDog {
+    font-family: 'Popline', sans-serif;
+    font-weight: 800;
+    padding-top: 0;
+}
+
+.TV_Channel_picture,.WWEK_picture, .TinDog_picture {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.TV_Channel_picture,.WWEK_picture {
+    height: 300px;
+    width: 400px;
+    max-width: 300px;
+}
+
+.TinDog_picture {
+    height: 200px;
+    width: 300px;
+}
+
+.project_link,.content {
+    font-family: 'Playpen Sans', sans-serif;
+    font-weight: 500;
+    max-width: 800px;
+}
+
+.project-container{
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    min-height: 100vh; /* Ensure it takes the full height of the viewport */
+    padding: 20px; /* Add padding for responsiveness */
+    background-color: #f5f5f5; /* Optional: Set a background color */
+    box-sizing: border-box;
+}
+
+/*Contact Me section*/
+.contact-text{
+    text-align: center;
+    font-family: 'Playpen Sans', sans-serif;
+}
+
+.contact-container{
+    background-color: #B3C8CF;
+    max-width: 1200px; /* Limit the width of the content */
+    width: 100%; /* Ensure it scales on smaller screens */
+    padding: 20px;
+    border-radius: 10px; /* Optional: Add rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a shadow for aesthetics */
+   
+}
+.text{
+    
+    font-family: 'Popline', sans-serif;
+    padding-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-thickness: 5px;
+    text-underline-offset: 5px;
+    
+}
+
+.instagram,.leetcode{
+    border-radius:20%;
+}
+
+.image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    gap:50px;
+    text-align: center;
+    font-family: 'Playpen Sans', sans-serif;
+}
+
+.outer-container{
+    background-color: #f5f5f5;;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.Heading{
+    font-family: 'Popline', sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 5px;
+    padding-left: 200px;
+}
+
+.picture {
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-right: 200px;
+}
+
+.Techincal-skill,
+.Soft-skill,
+.Creative-skill {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+/*skill section*/
+
+/* Media Queries */
+@media (max-width: 1000px) {
+    .MainSection {
+        flex-direction: column;
+    }
+
+    .leftpart {
+        margin-bottom: 20px;
+    }
+
+    .leftimage {
+        height: 40vw;
+        width: 40vw;
+    }
+
+    .circlecontainer {
+        display: flex;
+        padding-top: 150px;
+        align-items: flex-end;
+        justify-content: space-evenly; /* Evenly distribute the circles */
+        flex-wrap: nowrap; /* Prevent wrapping of the circles */
+        width: 100%; /* Ensure the container takes full width */
+    }
+
+    .circle {
+        justify-content: center;
+        height: 15vw;
+        width: 15vw;
+        font-size: small;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .Proj1,.Proj3{
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10px;
+    }
+    .Proj2{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-right: 10px;
+    }
+
+    .content,.title{
+        text-align: center;
+    }
+    .TV_Channel_picture,.WWEK_picture,.TinDog_picture{
+        align-self: center;
+    }
+    .project_link{
+        margin-right: 10px;
+    }
+    .Techincal-skill,
+    .Soft-skill,
+    .Creative-skill {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align content */
+    }
+
+    .picture {
+        padding-right: 20px;
+        margin-bottom: 20px; /* Add space below the image */
+    }
+
+    .Tech ul,
+    .Soft ul,
+    .Creative ul {
+        padding-left: 0px; /* Remove extra padding for smaller screens */
+        text-align: left; /* Center-align list */
+    }
+
+    .Heading {
+        padding-left: 0;
+        text-align:left; /* Center headings */
+    }
+
+    .main-text{
+        text-align: left;
+        font-size:large;
+    }
+}
+
+@media (max-width: 600px) {
+    .MainSection{
+        height: auto;
+       
+    }
+
+    .Proj1,.Proj2,.Proj3{
+        height: auto ;
+        align-items: center;
+    }
+
+    .leftpart {
+        margin-bottom: 20px;
+    }
+
+    .leftimage {
+        height: 30vw;
+        width: 30vw;
+    }
+
+    .circlecontainer {
+        gap: 10px;
+    }
+
+    .circle {
+        height: 20vw;
+        width: 20vw;
+        font-size:x-small;
+    }
+
+    .TV_Channel_picture,.WWEK_picture,.TinDog_picture{
+        align-self: center;
+    }
+
+    .content,.title{
+        text-align:center ;
+    }
+
+    .project_link{
+        margin-left: 5px;
+    }
+    
+    .picture {
+        height: 120px;
+        width: 120px;
+    }
+
+    .Tech ul,
+    .Soft ul,
+    .Creative ul {
+        font-size: 14px; /* Reduce font size for better fit */
+    }
+} 
+
+@media (max-width:300px) {
+    .image{
+        flex-direction: column;
+    }
+}
