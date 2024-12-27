@@ -195,7 +195,7 @@ a {
     font-family: 'Playpen Sans', sans-serif;
 }
 
-.outer-container,.outer-container2{
+.outer-container{
     background-color: #f5f5f5;;
     min-height: 100vh; 
     display: flex;
@@ -203,6 +203,16 @@ a {
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding: 20px;
+}
+
+.outer-container2{
+    background-color: #f5f5f5;;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
 }
 
