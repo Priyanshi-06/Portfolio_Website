@@ -181,7 +181,7 @@ a {
     
 }
 
-.instagram,.leetcode{
+.codeforces,.leetcode,.github,.linkdin,.instagram{
     border-radius:20%;
 }
 
@@ -193,8 +193,30 @@ a {
     gap:50px;
     text-align: center;
     font-family: 'Playpen Sans', sans-serif;
+
 }
 
+
+.codeforces:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+}
+.leetcode:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+}
+.github:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+}
+.linkdin:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+}
+.instagram:hover{
+    transform: scale(1.1);
+    box-shadow: 2px 2px 10px black;
+}
 .outer-container{
     background-color: #f5f5f5;;
     min-height: 100vh; 
