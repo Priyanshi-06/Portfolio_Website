@@ -1,29 +1,63 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Contact Me</title>
-      <link rel="stylesheet" href="./style.css"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    </head>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Your EXISTING Stylesheet -->
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+  <main class="page-wrapper">
+    <h1 class="page-title">Contact Me</h1>
+    <p class="page-subtitle">Let's get connected! Feel free to reach out on any platform.</p>
     
-    <body>
-        <div class="outer-container">
-        <div class="contact-container">
-        <h1 class="text">Contact Me</h1>
-        <h2 class="contact-text">Let's get connected!!</h2>
-        <p class="contact-text">Choose any platform</p>
-        <div class="image">
-          <a href="https://codeforces.com/profile/priyanshigothi2001"><img class="codeforces" src="./codeforces.jpg" alt="codeforces-picture" height="50"><br/>Codeforces</a>
-          <a href="https://leetcode.com/u/20_Priyanshi/"><img class="leetcode" src="./Leetcode.png" alt="Leetcode-picture" height="50"><br/>Leetcode</a>
-          <a href="https://github.com/Priyanshi-06"><img class="github" src="./github.png" alt="github-picture" height="50"><br/>Github</a>
-          <a href="https://www.linkedin.com/in/priyanshi-gothi-913b1a287?" ><img class="linkdin" src="./linkedin.png" alt="Linkdin-picture" height="50"><br/>Linkdin</a>
-          <a href="mailto:priyanshigothi20012gmail.com" ><img class="gmail" src="./gmail.png" alt="gmail-picture" height="50"><br/>Gmail</a>
-          <a href="https://www.instagram.com/priyanshi20_01"><img class="instagram" src="./instagram.png" alt="instagram-picture" height="50"><br/>Instagram</a>
-        </div>
-        </div>
-      </div>
-    </body>
-    </html>
+    <div class="project-grid">
+
+      <!-- GitHub Card -->
+      <a class="contact-card" href="https://github.com/Priyanshi-06" target="_blank" rel="noopener noreferrer">
+        <img class="contact-card-logo" src="./github.png" alt="GitHub Logo">
+        <h2>GitHub</h2>
+      </a>
+
+      <!-- LinkedIn Card -->
+      <a class="contact-card" href="https://www.linkedin.com/in/priyanshi-gothi-913b1a287" target="_blank" rel="noopener noreferrer">
+        <img class="contact-card-logo" src="./linkedin.png" alt="LinkedIn Logo">
+        <h2>LinkedIn</h2>
+      </a>
+
+      <!-- Gmail Card -->
+      <a class="contact-card" href="mailto:priyanshigothi2001@gmail.com">
+        <img class="contact-card-logo" src="./gmail.png" alt="Gmail Logo">
+        <h2>Gmail</h2>
+      </a>
+      
+      <!-- LeetCode Card -->
+      <a class="contact-card" href="https://leetcode.com/u/20_Priyanshi/" target="_blank" rel="noopener noreferrer">
+        <img class="contact-card-logo" src="./Leetcode.png" style="border-radius: 10%;" alt="LeetCode Logo">
+        <h2>LeetCode</h2>
+      </a>
+
+      <!-- Codeforces Card -->
+      <a class="contact-card" href="https://codeforces.com/profile/priyanshigothi2001" target="_blank" rel="noopener noreferrer">
+        <img class="contact-card-logo" src="./codeforces.jpg" style="border-radius: 10%;" alt="Codeforces Logo">
+        <h2>Codeforces</h2>
+      </a>
+
+      <!-- Instagram Card -->
+      <a class="contact-card" href="https://www.instagram.com/priyanshi20_01" target="_blank" rel="noopener noreferrer">
+        <img class="contact-card-logo" src="./instagram.png" alt="Instagram Logo">
+        <h2>Instagram</h2>
+      </a>
+
+    </div>
+  </main>
+</body>
+</html>
