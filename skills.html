@@ -1,49 +1,73 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Skills</title>
-      <link rel="stylesheet" href="./style.css"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div class="outer-container2">
-            <div class="skill-container">
-                <div class="Techincal-skill">
-                    <div class="Tech">
-                    <h1 class="Heading">Techincal Skills</h1>
-                    <ul>
-                    <li>Coding(C,C++,DSA)</li>
-                    <li>Web Devlopment(HTML,CSS)</li>
-                    </ul>
-                    </div>
-                    <img class="picture" src="./developer-8829711_1280.jpg" height="100">
-                </div>
-                <div class="Soft-skill">
-                    <div class="Soft">
-                    <h1 class="Heading">Soft Skills</h1>
-                    <ul>
-                    <li>Teamwork and collaboration</li>
-                    <li>Critical thinking and problem-solving</li>
-                    <li>Adaptability and eagerness to learn</li>
-                    </ul>
-                    </div>
-                    <img class="picture" src="./graph-1019845_1280.jpg" alt="picture" height="100">
-                </div>
-                <div class="Creative-skill">
-                    <div class="Creative">
-                    <h1 class="Heading">Creative Skills</h1>
-                    <ul>
-                    <li>Drawing and Painting</li>
-                    <li>Woolen Stitching</li>
-                    </ul>
-                    </div>
-                    <img class="picture" src="./Watercolor.jpg" height="100">
-                </div>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Skills</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  
+  <!-- Your EXISTING Stylesheet -->
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+  <main class="page-wrapper">
+    <h1 class="page-title">My Skills</h1>
+    <div class="project-grid">
+
+      <!-- Technical Skills Card -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">code</span>
         </div>
-    </body>
+        <div class="project-card__body">
+          <h2 class="project-card__title">Technical Skills</h2>
+          <ul>
+            <li>Coding (C, C++, DSA)</li>
+            <li>Web Development (HTML, CSS)</li>
+            <li>Version Control (Git & GitHub)</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Soft Skills Card -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">groups</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">Soft Skills</h2>
+          <ul>
+            <li>Teamwork & Collaboration</li>
+            <li>Critical Thinking & Problem-Solving</li>
+            <li>Adaptability & Eagerness to Learn</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Creative Skills Card -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">palette</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">Creative Skills</h2>
+          <ul>
+            <li>Drawing & Painting</li>
+            <li>Woolen Stitching</li>
+            <li>Digital Illustration</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </main>
+</body>
 </html>
