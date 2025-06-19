@@ -1,43 +1,129 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Projects</title>
-      <link rel="stylesheet" href="./style.css"/>
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-        <div class="project-container">
-        <div class="container">
-            <div class="Proj1">
-                <div class="TV_Channel_About">
-                <h1 class="title">1.TV-CHANNEL SCHEDULAR</h1>
-                <p class="content">Capstone You are to build a TV Channel Scheduler. The Scheduler works for family members who want to record their favorite TV series so that they can watch them later and get notified by the Scheduler when they have time (it knows their availability slots - randomly initialized). There are N members in a family, each having their favorite series out of a total of M. Multiple members may love the same series. However, the Scheduler cannot schedule a series if there is a conflict of interest. Also, members want to get on time for p slots. The Scheduler needs to minimize total episode misses.</p>
-                <a class="project_link" href="https://github.com/DiyaPatel007/P9_TV_Channel_Schedular.git">=>Link</a>
-                </div>
-                <img class="TV_Channel_picture" src="./TV.jpg" alt="TV watching photo" height="100">
-            </div>
-            <div class="Proj2">
-                <img class="WWEK_picture" src="./Rumor.jpg" alt="WWEK picture" height="100">
-                <div class="WWEK">
-                <h1 class="title">2.WHEN WILL EVERYONE KNOW</h1>
-                <p class="content">Our Calculus Project delves into the study of how rumors spread within a stable population group. To accomplish this we are using mathematical modeling to represent the spread of information. The model aims to improve understanding on how to track the spread of rumors and further on how to control it. The factors influencing the spread of rumors will be defined in the project. The project will incorporate graph theory and differential equations to model interactions within a stable population. The findings and conclusions of this project have implications for diverse fields, the project aims to close the gap between a real-world social phenomena and its mathematical model .</p>
-                <a class="project_link" href="https://github.com/akshadamodak06/When-Will-Everyone-Know-.git">=>Link</a>
-                </div>
-            </div>
-            <div class="Proj3">
-                <div class="TinDog">
-                <h1 class="title">3.TinDog</h1>
-                <p class="content">This website is built using HTML, CSS, and primarily Bootstrap. It is designed to help dogs connect and form friendships with other dogs in their vicinity. The website does not contain JavaScript, so it is currently non-functional.</p>
-                <a class="project_link" href="https://github.com/Priyanshi-06/Project_TinDog.git">=>Link</a>
-                <div><a class="project_link" href="https://priyanshi-06.github.io/Project_TinDog/">=>Website Link</a></div>
-                </div>
-                <img class="TinDog_picture" src="./Dog.jpg" alt="TinDog picture" height="100">
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+  
+  <!-- Material Symbols -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!-- Your Stylesheet -->
+  <link rel="stylesheet" href="./style.css"/>
+</head>
+
+<body>
+  <main class="page-wrapper">
+    <h1 class="page-title">My Projects</h1>
+    <div class="project-grid">
+
+      <!-- Project 1: TV-Channel Scheduler -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined">schedule</span>
         </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">TV-Channel Scheduler</h2>
+          <p class="project-card__description">A command-line tool for scheduling and managing TV channel programming. Built with a focus on data structures.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/DiyaPatel007/P9_TV_Channel_Schedular.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: InvestHub -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined">show_chart</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">InvestHub</h2>
+          <p class="project-card__description">This Stock Market Management System is a Database Management System (DBMS) designed to store and manage stock market-related data efficiently. The database includes information about stocks, users, FIIs (Foreign Institutional Investors), DIIs (Domestic Institutional Investors), IPOs, mutual funds, and more.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/2601Gautam/Invest-Hub.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3: When Will Everyone Know -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">groups_2</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">When Will Everyone Know</h2>
+          <p class="project-card__description">A calculus project that mathematically models how rumors spread within a stable population using graph theory and differential equations.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/akshadamodak06/When-Will-Everyone-Know-.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4: TinDog -->
+      <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">pets</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">TinDog</h2>
+          <p class="project-card__description">A static landing page for a conceptual dog-dating app. This project demonstrates skills in HTML, CSS, and the Bootstrap framework.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/Priyanshi-06/Project_TinDog.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a class="project-link project-link--secondary" href="https://priyanshi-06.github.io/Project_TinDog/" target="_blank" rel="noopener noreferrer">View Live Site</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 5:LDPC -->
+       <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <!-- Icon made larger and description corrected -->
+          <span class="material-symbols-outlined" style="font-size: 120px;">5g_mobiledata_badge</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">LDPC Codes</h2>
+          <p class="project-card__description">An exploration of Low-Density Parity-Check codes, an advanced error-correction method used in modern digital communications like 5G and Wi-Fi.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/Priyanshi-06/LDPC.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 6:Drum Kit -->
+       <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">music_history</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">Drum Kit</h2>
+          <p class="project-card__description">An interactive drum kit built with JavaScript. Users can play drum sounds by clicking buttons or pressing corresponding keyboard keys.</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/Priyanshi-06/Drum_Kit.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a class="project-link project-link--secondary" href="https://priyanshi-06.github.io/Drum_Kit/" target="_blank" rel="noopener noreferrer">View Live Site</a>
+          </div>
+        </div>
+      </article>
+
+       <!-- Project 7: Simon Game -->
+       <article class="project-card">
+        <div class="project-card__visual project-card__visual--icon">
+          <span class="material-symbols-outlined" style="font-size: 120px;">grid_view</span>
+        </div>
+        <div class="project-card__body">
+          <h2 class="project-card__title">Simon Game</h2>
+          <p class="project-card__description">A web-based memory game inspired by the classic Simon Game. Test how long you can remember a growing sequence of colors and sounds!</p>
+          <div class="project-card__links">
+            <a class="project-link" href="https://github.com/Priyanshi-06/Simon_Game.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+            <a class="project-link project-link--secondary" href="https://priyanshi-06.github.io/Simon_Game/" target="_blank" rel="noopener noreferrer">View Live Site</a>
+          </div>
+        </div>
+      </article>
+
     </div>
-    </body>
-    </html>
+  </main>
+</body>
+</html>
