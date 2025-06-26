@@ -14,8 +14,7 @@ Whether you’re here to view my projects, understand my skillset, or just say h
 
 ## ✨ Live Preview
 
-> *(Add this once hosted on GitHub Pages, Netlify, or Vercel)*  
-> 🔗 [View Live](priyanshi-06.github.io/Portfolio_Website/)
+> 🔗 priyanshi-06.github.io/Portfolio_Website/
 
 ---
 
@@ -26,7 +25,6 @@ Whether you’re here to view my projects, understand my skillset, or just say h
 - 👩‍💻 Introduction to my academic background and tech interests
 - 📱 Responsive structure using CSS Flexbox
 
----
 
 
 
