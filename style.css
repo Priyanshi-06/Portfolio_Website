@@ -851,3 +851,21 @@ body {
   color: var(--heading-color);
   margin: 0;
 }
+
+/* Typewriter effect */
+.typewriter {
+  overflow: hidden;
+  border-right: 2px solid #333; /* blinking cursor */
+  white-space: nowrap;
+  width: 0;
+  animation: typing 2.5s steps(30, end) forwards, blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
