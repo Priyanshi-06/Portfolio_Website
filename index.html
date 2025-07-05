@@ -1,36 +1,46 @@
 <!DOCTYPE html>
-    <html lang="en">
-    <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Personal Website</title>
-      <link rel="stylesheet" href="./style.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
-    </head>
-    
-    <body>
-      <div class="index-container">
-        <div class="Topcontainer">
-          <div class="MainSection">
-            <div class="leftpart">
-              <img class="leftimage" src="./Profile.jpg">
-            </div>
-            <div class="rightpart">
-               <div class="index-text">
-              <p class="main-text typewriter">Hi, I'm Priyanshi!</p>
-              <p class="content">I'm a 2nd-year B.Tech student pursuing Information and Communication Technology (ICT) at Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT), Gandhinagar.Passionate about coding and problem solving with C++ and Data Structures & Algorithms (DSA). I enjoy building modern web experiences and am currently exploring full-stack development with HTML, CSS, and Node.js.</p>
-            </div>
-                <div class="circlecontainer">
-                <div class="circle"><a href="./projects.html">Projects</a></div>
-                <div class="circle"><a href="./skills.html">Skills</a></div>
-                <div class="circle"><a href="./contact_me.html">Contact Me</a></div>
-                </div>
-            </div>
-            </div>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Website</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Playpen+Sans:wght@100..800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="index-container">
+    <div class="Topcontainer">
+      <div class="MainSection">
+
+        <div class="leftpart" data-aos="fade-right" data-aos-duration="1000">
+          <img class="leftimage" src="./Profile.jpg" alt="Profile">
+        </div>
+
+        <div class="rightpart" data-aos="fade-left" data-aos-duration="1000">
+          <div class="index-text">
+            <p class="main-text typewriter">Hi, I'm Priyanshi!</p>
+            <p class="content">I'm a 2nd-year B.Tech student pursuing Information and Communication Technology (ICT) at Dhirubhai Ambani Institute of Information and Communication Technology (DAIICT), Gandhinagar. Passionate about coding and problem solving with C++ and Data Structures & Algorithms (DSA). I enjoy building modern web experiences and am currently exploring full-stack development with HTML, CSS, and Node.js.</p>
           </div>
+
+          <div class="circlecontainer" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-delay="300">
+            <div class="circle" data-aos="zoom-in" data-aos-delay="400"><a href="./projects.html">Projects</a></div>
+            <div class="circle" data-aos="zoom-in" data-aos-delay="500"><a href="./skills.html">Skills</a></div>
+            <div class="circle" data-aos="zoom-in" data-aos-delay="600"><a href="./contact_me.html">Contact Me</a></div>
+          </div>
+
         </div>
       </div>
-    </body>
+    </div>
+  </div>
+
+  <!-- AOS Script -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
 </html>
